@@ -1,9 +1,19 @@
-# CMPT305 Lab 5: Connect Four v3: GUI Connect Four
+<<<<<<< HEAD
+# CMPT305 Lab 1: Text-based Connect 4
+## Building
+Compile your program with `javac`
 
-Recreate the Connect Four game to use a GUI board to interface with the game. Implement the provided GUIBoard and GUIHumanPlayer class skeletons and use them in ConnectFour.java to recreate the game. You may use your Lab 3 solution or the provided instructor solution. 
+```bash
+$> javac ConnectFour.java
+```
 
-NOTE: The provided solution will compile but not run properly until you initialize the `showBoard` GUIBoard object properly.
+## Running
+Run your program with `java`
+=======
+# CMPT305 Lab 3: Connect Four v2 - Object Oriented update
 
+Rewrite your Connect Four game from Lab 1 using object oriented techniques.
+ 
 ## Cloning (Downloading your assignment)
 
 Start your lab by cloning this repository:
@@ -20,11 +30,27 @@ $> javac *.java
 ```
 
 ## Running
+>>>>>>> origin/main
 
 ```bash
 $> java ConnectFour
 ```
 
+<<<<<<< HEAD
+
+## Submitting
+Frequently commit your work as you add features
+
+```bash
+$> git add ConnectFour.java
+$> git commit -m "<YOUR COMMIT MESSAGE HERE>"
+```
+
+Remember to use ***DESCRIPTIVE*** commit messages that describe what has changed since the last commit.
+
+Once you are ready to submit, push your changes to your project repo
+
+=======
 ## Javadoc
 	
 Once your source code has been commented using Javadoc, you can generate a Javadoc page for your program. To do this, use the `javadoc` command:
@@ -40,8 +66,12 @@ $> git add *.java
 $> git commit -m "<YOUR COMMIT MESSAGE HERE>"
 ```
 Then, push your changes
+>>>>>>> origin/main
 ```bash
 $> git push
 ```
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> origin/main
